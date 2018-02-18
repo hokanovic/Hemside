@@ -14,12 +14,6 @@ h1, h2, h3 {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: red;
-}
-
-
 #header {
     background-color: #66CCFF;
     color: white;
@@ -29,6 +23,10 @@ a {
 
 #content {
     padding: 10px;
+}
+#main {
+    width: 600px;
+    float: right;
 }
 
 #nav {
@@ -41,20 +39,10 @@ a {
     padding: 0;
 }
 
-#nav .selected {
-    font-weight: bold;
-}
-
-#main {
-    widows: 600px;
-    float: right;
-}
-
 #footer {
     clear: both;
     padding: 10px;
     background-color: #999999;
     color: white;
     text-align: right;
-
 }
